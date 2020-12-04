@@ -23,7 +23,7 @@ public enum EveryEnum implements SafeEnum {
     }
 
     @JsonCreator
-    public static EveryEnum from(String name) {
+    public static EveryEnum forValue(String name) {
         return Enums.from(EveryEnum.class, name);
     }
 

@@ -2,7 +2,7 @@ package com.example.demo;
 
 public class OutputModel {
 
-    private EveryEnum every;
+    private final EveryEnum every;
 
     public OutputModel(final EveryEnum every) {
         this.every = every;
